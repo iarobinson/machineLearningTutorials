@@ -56,3 +56,6 @@ tree.export_graphviz(clf,
 
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 graph.write_pdf("iris.pdf")
+print test_data[0], test_target[0]
+
+print iris.feature_names, iris.target_names
